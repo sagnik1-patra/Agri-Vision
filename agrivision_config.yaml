@@ -1,0 +1,12 @@
+data_paths:
+  pesticides: C:\Users\sagni\Downloads\Agri Vision\archive\pesticides.csv
+  rainfall: C:\Users\sagni\Downloads\Agri Vision\archive\rainfall.csv
+  temp: C:\Users\sagni\Downloads\Agri Vision\archive\temp.csv
+  yield: C:\Users\sagni\Downloads\Agri Vision\archive\yield.csv
+  yield_df: C:\Users\sagni\Downloads\Agri Vision\archive\yield_df.csv
+artifact_dir: C:\Users\sagni\Downloads\Agri Vision
+target: yield
+models:
+  sklearn_pipeline_pkl: yield_sklearn_pipeline.pkl
+  keras_model_h5: yield_mlp.h5
+preprocessor: preprocessor_only.pkl
