@@ -1,4 +1,4 @@
-🌾 AgriVision — Crop Yield Modeling (ML + Plots + Prediction)
+🌾 AgriVision — Crop Yield Modeling (ML + Plots + Prediction).
 
 AgriVision is a practical end-to-end ML pipeline that ingests multiple agri datasets (yield, rainfall, temperature, pesticides), builds a robust training table without memory blowups, trains two models (RandomForest & Keras MLP), saves reusable artifacts, and generates training curves + feature correlation heatmap. A separate prediction script produces batch predictions for new data.
 
